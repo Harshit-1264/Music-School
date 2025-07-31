@@ -1,8 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Music School
 
-## Getting Started
+A modern web application for music education, built with [Next.js](https://nextjs.org/) and bootstrapped using [create-next-app](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-First, run the development server:
+## 🚀 Getting Started
+
+Clone this repository and install dependencies:
+
+```bash
+git clone https://github.com/Harshit-1264/Music-School.git
+cd Music-School
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
@@ -14,23 +24,72 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **TypeScript-first:** Strongly typed, scalable codebase.
+- **Styling:** Powered by Tailwind CSS utility classes.
+- **UI Components:** Custom, modern elements with [Aceternity UI](https://ui.aceternity.com/).
+- **Font Optimization:** Uses [next/font](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) for optimal font loading (Geist).
 
-## Learn More
+Customize your app by editing `app/page.tsx`. Changes auto-update when you save.
 
-To learn more about Next.js, take a look at the following resources:
+## ⚡ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js](https://nextjs.org/) (React framework)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/) (utility-first CSS)
+- [Aceternity UI](https://ui.aceternity.com/) (UI kit with modern components)
+- [Vercel](https://vercel.com/) (for deployment)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Styling & UI Components
 
-## Deploy on Vercel
+This project uses both [Tailwind CSS](https://tailwindcss.com/) for rapid utility-centric styling and [Aceternity UI](https://ui.aceternity.com/) for interactive React components.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- To use Aceternity components: Copy code from their docs to your `ui/` folder.
+- Style further with Tailwind utility classes and Aceternity props.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```tsx
+// Example: Aceternity + Tailwind in a component
+import { CardStack } from '@/ui/CardStack';
+
+
+
+
+  {/* ... */}
+
+```
+
+## 📚 Learn More
+
+- [Next.js Documentation](https://nextjs.org/docs) – Deep dive into Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) – Hands-on interactive tutorial.
+- [Next.js GitHub](https://github.com/vercel/next.js) – Contributions and feedback.
+
+## 🚀 Deployment
+
+Easiest deployment is on [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).  
+See [Next.js deployment docs](https://nextjs.org/docs/app/building-your-application/deploying) for alternatives.
+
+## 🌐 Live Demo
+
+Visit the deployed app: [music-school-woad-zeta.vercel.app](https://music-school-woad-zeta.vercel.app/)
+
+## 📦 Repository Insights
+
+- **Stars:** 0
+- **Watchers:** 0
+- **Forks:** 0
+- **Languages:** TypeScript 97.9%, CSS 1.4%, JavaScript 0.7%
+- No packages or releases published yet.
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, open an issue first to discuss what you’d like to change.
+
+## 📄 License
+
+Add your license in the `LICENSE` file (e.g., MIT, GPL, etc).
+
+> Built with ❤️ using Next.js, Aceternity UI, and Tailwind CSS.
